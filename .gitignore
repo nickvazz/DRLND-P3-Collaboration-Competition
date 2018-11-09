@@ -1,0 +1,8 @@
+__pycache__/
+Soccer.app
+Tennis.app
+unity-environment.log
+.ipynb_checkpoints/
+results/
+Soccer_Linux
+Tennis_Linux
