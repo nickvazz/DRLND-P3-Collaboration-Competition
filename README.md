@@ -1,4 +1,4 @@
-# Udacity Deep Reinforcement Learning - Collaboration Copetition (Project 3)
+# Udacity Deep Reinforcement Learning - Collaboration Competition (Project 3)
 ## Introduction
 
 In this project, the goal is to teach two agents to move two tennis rackets so that they bounce a ball over a net between them for as long as possible. Each of the two agents has access to the environment's 8 dimensional state, which consists of the position and velocity of both the ball and racket. Each of these 8 dimensional states takes on continuous values for each racket agent. From this state, the agent learns which of four actions it should take. Each agent receives a reward of +0.1 if the agent his the ball over the net. If the agent lets the ball his the ground or bounces it out of bounds, it receives a rewar of -0.01. Each agent has two continuous actions available, one for moving towards or away from the net, and one for jumping. The agents have solved the environment when they average a score of +0.5 over 100 consecutive episodes (where the maximum is taken over the two agents).
