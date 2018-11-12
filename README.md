@@ -44,7 +44,7 @@ Next you will download the rebuild Unity Environment at one of these links:
 > ---
 > Mac: [One Agent](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis.app.zip)
 
-You can then explore the environment by going to the *Udacity DRLND GitHub* ([here](https://github.com/udacity/deep-reinforcement-learning)) repository and open the *Continuous_Control.ipynb* file in the *p2_continuous-control* ([here](https://github.com/udacity/deep-reinforcement-learning/tree/master/p3_collab-compet)).
+You can then explore the environment by going to the *Udacity DRLND GitHub* ([here](https://github.com/udacity/deep-reinforcement-learning)) repository and open the *Tennis.ipynb* file in the *p3_collab-compet* ([here](https://github.com/udacity/deep-reinforcement-learning/tree/master/p3_collab-compet)).
 
 ## Training
 To train, in your terminal run the following:
