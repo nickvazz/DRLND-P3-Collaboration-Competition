@@ -1,7 +1,7 @@
-# Udacity Deep Reinforcement Learning - Continuous Control (Project 2)
+# Udacity Deep Reinforcement Learning - Collaboration Copetition (Project 3)
 ## Introduction
 
-In this project, the goal is to teach an agent to move a double-jointed arm to a target location and keep it in the target location as long as possible. The agent has access to the environment's 33 dimensional state, which consists of position, rotation, velocity, and angular velocities of the arm. Each of these 33 dimensional states takes on continuous values.  From this state, the agent learns which of four actions it should take. The four available actions are to control the torque of the two joints of the arm and are continuous values between [-1,1]. The agent gets a reward of +0.1 for each step that the agent's hand is in the target location. The agent is thought to have solved or learned the environment when agent gets an average score of +30 over 100 consecutive episodes.
+In this project, the goal is to teach $two$ agents to move $two$ tennis rackets so that they bounce a ball over a net between them for as long as possible. Each of the two agents has access to the environment's 8 dimensional state, which consists of the position and velocity of both the ball and racket. Each of these 8 dimensional states takes on continuous values for each racket agent. From this state, the agent learns which of four actions it should take. Each agent receives a reward of +0.1 if the agent his the ball over the net. If the agent lets the ball his the ground or bounces it out of bounds, it receives a rewar of -0.01. Each agent has two continuous actions available, one for moving towards or away from the net, and one for jumping. The agents have solved the environment when they average a score of +0.5 over 100 consecutive episodes (where the maximum is taken over the two agents).
 
 ---
 ### Requirements:
@@ -38,21 +38,15 @@ When running in the Jupiter notebook you can start your your notebook kernel as 
 
 Next you will download the rebuild Unity Environment at one of these links:
 
-> Linux: [One Agent](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Linux.zip)
-> Linux: [Twenty Agent](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Linux.zip)
+> Linux: [One Agent](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Linux.zip)
+> Linux: [No Visualization - One Agent](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Linux_NoVis.zip)
 >
 > ---
-> Linux: [No Visualization - One Agent](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Linux_NoVis.zip)
-> Linux: [No Visualization - Twenty Agents](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Linux_NoVis.zip)
->
-> ---
-> Mac: [One Agent](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher.app.zip)
-> Mac: [Twenty Agents](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher.app.zip)
+> Mac: [One Agent](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis.app.zip)
 
-You can then explore the environment by going to the *Udacity DRLND GitHub* ([here](https://github.com/udacity/deep-reinforcement-learning)) repository and open the *Continuous_Control.ipynb* file in the *p2_continuous-control* ([here](https://github.com/udacity/deep-reinforcement-learning/tree/master/p2_continuous-control)).
+You can then explore the environment by going to the *Udacity DRLND GitHub* ([here](https://github.com/udacity/deep-reinforcement-learning)) repository and open the *Continuous_Control.ipynb* file in the *p2_continuous-control* ([here](https://github.com/udacity/deep-reinforcement-learning/tree/master/p3_collab-compet)).
 
 ## Training
-### Twenty Agent Training
 To train, in your terminal run the following:
 > ```console
 > (drlnd) $ python3 ./training.py
