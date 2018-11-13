@@ -52,7 +52,7 @@ These results of these 45 newly trained models are shown below where the model n
 ![seed_plots](results.png)
 
 
-These 10 models statistics are shown below.
+These 9 models statistics are shown below.
 
 | model | mean               | std    | min    | 25%     | 50%    | 75%     | max    |
 |-------|--------------------|--------|--------|---------|--------|---------|--------|
@@ -72,7 +72,7 @@ With GAMMA = 0.97, LR_ACTOR = 1e-3, LR_CRITIC = 1e-3, fc1_units = 100, fc2_units
 
 The results for all-models and the seed-models are shown (sorted by win_iter) in the tables in the Appendix - A and Appendix - B respectively.
 
-The best models can be found [here]().
+The top 3 best models can be found [here](best-models).
 
 # Future Work!
 
