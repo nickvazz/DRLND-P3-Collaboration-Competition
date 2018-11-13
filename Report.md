@@ -72,7 +72,7 @@ With GAMMA = 0.97, LR_ACTOR = 1e-3, LR_CRITIC = 1e-3, fc1_units = 100, fc2_units
 
 The results for all-models and the seed-models are shown (sorted by win_iter) in the tables in the Appendix - A and Appendix - B respectively.
 
-The top 3 best models can be found [here](best-models).
+The best model weights can be found [here](best-models).
 
 # Future Work!
 
